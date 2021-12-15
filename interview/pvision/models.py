@@ -54,5 +54,3 @@ class Measurement(models.Model):
 #     - Each location has many patients
 #     """
 
-
-# Let's assume we want all measurements of patient called Foo taken in Bern, sorted by date. Write the related query for the database.
