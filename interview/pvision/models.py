@@ -23,6 +23,17 @@ class Patient(models.Model):
     zipcode = models.CharField(max_length=256)
 
 
+class Location(models.Model):
+    """
+    Create a Location model here. Include name of the hospital/clinician and address.
+    Relate each measurement to the specific location:
+    - One patient can go different locations
+    - Each location has many patients
+    """
+    name = models.CharField(max_length=256)
+    address = models.CharField(max_length=256)
+
+
 class Measurement(models.Model):
     LEFT = 1
     RIGHT = 2
@@ -44,13 +55,4 @@ class Measurement(models.Model):
     program = models.CharField(default='NaN', max_length=2560)
     comment = models.CharField(default='', blank=True, max_length=2560)
     measurement_done = models.BooleanField(default=False)
-
-
-# class Location(models.Model):
-#     """
-#     Create a Location model here. Include name of the hospital/clinician and address.
-#     Relate each measurement to the specific location:
-#     - One patient can go different locations
-#     - Each location has many patients
-#     """
-
+    location = models.ForeignKey(Location, on_delete=models.PROTECT)
