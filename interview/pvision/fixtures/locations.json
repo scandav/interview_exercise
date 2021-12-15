@@ -1,0 +1,18 @@
+[
+  {
+    "model": "pvision.location",
+    "pk": 1,
+    "fields": {
+      "name": "Inselspital",
+      "address": "Freiburgstrasse 18, 3010 Bern"
+    }
+  },
+  {
+    "model": "pvision.location",
+    "pk": 2,
+    "fields": {
+      "name": "Universitaetspital Zuerich",
+      "address": "Raemistrasse 100, 8091 Zuerich"
+    }
+  }
+]

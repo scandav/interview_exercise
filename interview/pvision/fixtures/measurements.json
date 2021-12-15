@@ -1,0 +1,110 @@
+[
+  {
+    "model": "pvision.measurement",
+    "pk": 1,
+    "fields": {
+      "eye": 1,
+      "patient": 1,
+      "result": { "values": [0, 1, 3, 5, 8], "mean_defect": 1.0, "mean_sensitivity": 26.6 },
+      "measurement_done": true,
+      "location": 2
+    }
+  },
+  {
+    "model": "pvision.measurement",
+    "pk": 2,
+    "fields": {
+      "eye": 1,
+      "patient": 1,
+      "result": { "values": [2, 9.9, 8.6, 2.1, 1], "mean_defect": 2.0, "mean_sensitivity": 16.6 },
+      "measurement_done": true,
+      "location": 2
+    }
+  },
+  {
+    "model": "pvision.measurement",
+    "pk": 3,
+    "fields": {
+      "eye": 2,
+      "patient": 1,
+      "result": {
+        "values": [9.1, 1.3, 4.5, 5.8, 8.9],
+        "mean_defect": -1.0,
+        "mean_sensitivity": 6.6
+      },
+      "measurement_done": true,
+      "location": 1
+    }
+  },
+  {
+    "model": "pvision.measurement",
+    "pk": 4,
+    "fields": {
+      "eye": 2,
+      "patient": 1,
+      "result": {
+        "values": [2.9, 1.3, 3.6, 9.3, 0.1],
+        "mean_defect": 1.3,
+        "mean_sensitivity": 21.3
+      },
+      "measurement_done": true,
+      "location": 1
+    }
+  },
+  {
+    "model": "pvision.measurement",
+    "pk": 5,
+    "fields": {
+      "eye": 2,
+      "patient": 2,
+      "result": { "values": [10, 11, 31, 52, 83], "mean_defect": 3.0, "mean_sensitivity": 2.6 },
+      "measurement_done": true,
+      "location": 2
+    }
+  },
+  {
+    "model": "pvision.measurement",
+    "pk": 6,
+    "fields": {
+      "eye": 2,
+      "patient": 2,
+      "result": {
+        "values": [2.2, 2.2, 3.3, 4.4, 5.5],
+        "mean_defect": 1.1,
+        "mean_sensitivity": 26.1
+      },
+      "measurement_done": true,
+      "location": 1
+    }
+  },
+  {
+    "model": "pvision.measurement",
+    "pk": 7,
+    "fields": {
+      "eye": 1,
+      "patient": 3,
+      "result": {
+        "values": [1.9, 1.9, 1.9, 1.9, 1.9],
+        "mean_defect": 0.0,
+        "mean_sensitivity": -6.6
+      },
+      "measurement_done": true,
+      "location": 1
+    }
+  },
+  {
+    "model": "pvision.measurement",
+    "pk": 8,
+    "fields": {
+      "eye": 1,
+      "patient": 3,
+      "result": {
+        "values": [0.1, 1.2, 3.2, 5.3, 8.4],
+        "mean_defect": 1.6,
+        "mean_sensitivity": 25.2
+      },
+      "measurement_done": true,
+      "location": 2
+    }
+  }
+]

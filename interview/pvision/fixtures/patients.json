@@ -1,0 +1,38 @@
+[
+  {
+    "model": "pvision.patient",
+    "pk": 1,
+    "fields": {
+      "name": "John Lennon",
+      "birthdate": "1970-01-01",
+      "gender": 1,
+      "address": "Secret Address",
+      "city": "Liverpool",
+      "zipcode": "990022"
+    }
+  },
+  {
+    "model": "pvision.patient",
+    "pk": 2,
+    "fields": {
+      "name": "PaulMcCartney",
+      "birthdate": "1970-01-02",
+      "gender": 1,
+      "address": "Cannot Tell Street",
+      "city": "Manchester",
+      "zipcode": "990012"
+    }
+  },
+  {
+    "model": "pvision.patient",
+    "pk": 3,
+    "fields": {
+      "name": "Ringo Starr",
+      "birthdate": "1970-01-03",
+      "gender": 1,
+      "address": "He Only Knows",
+      "city": "London",
+      "zipcode": "990025"
+    }
+  }
+]
